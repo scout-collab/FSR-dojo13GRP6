@@ -11,4 +11,5 @@ A simple group website designed for GitHub Pages.
 - Replace *Cody Selig* and *Nicole Zimmerman* in the text and navigation with actual names.
 - Replace placeholder data with each member's actual DRoCTS+ measurements.
 - Upload a completed rubric screenshot to `assets/` for each member and display it on their page with: `<img src="assets/taylor-rubric.png" alt="Taylor's completed peer-review rubric">` (adjust the filename per person).
-
+- Invite group members via repository Settings → Collaborators and teams (access must permit invitations).
+- Do not upload classmates’ personal phone numbers or private contact details.
