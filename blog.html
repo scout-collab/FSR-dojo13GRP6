@@ -1,10 +1,205 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="FSR 2 soil science group website"><title>Blog | Favorite Soils Report</title><link rel="stylesheet" href="styles.css"></head><body><header><h1>Favorite Soils Report</h1><p>FSR 2 · Soil Science Group Project</p></header><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="blog.html">Blog</a><a href="taylor.html">Soil Ninja TB</a><a href="cody.html">Soil Ninja CS</a><a href="nicole.html">Soil Ninja NZ</a></nav><main><h2>Group Blog</h2><article class="card" id="cs-blog-1" aria-labelledby="cs-blog-1-title">
-  <p class="muted">Blog Post 1 · October 18, 2026</p>
-  <h3 id="cs-blog-1-title">How Parched the Sites Soil Series Really Is</h3>
-  <p><strong>By Soil Ninja CS (Cody Selig)</strong></p>
-  <p>How much available plant water is in the root zone of the Sites soil series?</p>
-  <p>Read Cody’s original two-page blog post, including the discussion, soil-horizon calculation table, and handwritten PAW work:</p>
-  <p><a href="assets/CS_How_Parched_the_Sites_Soil_Series_Really_Is.pdf" target="_blank" rel="noopener">Open CS’s original blog post (PDF)</a></p>
-  <iframe src="assets/CS_How_Parched_the_Sites_Soil_Series_Really_Is.pdf#view=FitH" title="Soil Ninja CS blog post PDF, two pages" style="width:100%;height:720px;border:1px solid #cbd5cc;border-radius:8px;background:#fff" loading="lazy"></iframe>
-  <p class="muted">If the PDF preview does not appear on your device, use the PDF link above. The original file is preserved without changes.</p>
-</article></main><footer>FSR 2 · Group soil science website</footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FSR Dojo group blog for Favorite Soils Report">
+  <title>Blog | FSR Dojo</title>
+  <style>
+    :root{
+      --bg:#f4f1e8;
+      --paper:#fffdf8;
+      --ink:#2d342d;
+      --muted:#5f6d60;
+      --accent:#6d8c3c;
+      --accent-dark:#556d2f;
+      --line:#d8d2c4;
+      --soft:#ece7db;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: Georgia, 'Times New Roman', serif;
+      color:var(--ink);
+      background:linear-gradient(180deg,#f2efe7 0%, #f7f5ee 100%);
+      line-height:1.6;
+    }
+    header{
+      background:#e7e0cf;
+      border-bottom:1px solid #cfc5af;
+      padding:28px 20px 18px;
+      text-align:center;
+    }
+    header h1{
+      margin:0;
+      font-size:2rem;
+      letter-spacing:.02em;
+    }
+    header p{margin:.35rem 0 0;color:var(--muted)}
+    nav{
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:10px;
+      padding:14px 16px;
+      background:#f8f4ea;
+      border-bottom:1px solid var(--line);
+    }
+    nav a{
+      text-decoration:none;
+      color:var(--ink);
+      padding:8px 12px;
+      border-radius:999px;
+      font-size:.95rem;
+    }
+    nav a:hover, nav a:focus{background:#ebe4d4}
+    main{max-width:980px;margin:0 auto;padding:34px 18px 48px}
+    .page-title{text-align:center;margin-bottom:26px}
+    .page-title h2{font-size:2.2rem;margin:0 0 8px}
+    .page-title p{color:var(--muted);margin:0}
+    article{
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:26px;
+      box-shadow:0 8px 26px rgba(0,0,0,.05);
+    }
+    .meta{
+      color:var(--muted);
+      font-size:.95rem;
+      margin-bottom:10px;
+    }
+    .post-title{font-size:2rem;line-height:1.2;margin:.2rem 0 0.4rem}
+    .byline{margin:0 0 18px;font-weight:700}
+    .lede{
+      background:var(--soft);
+      border-left:5px solid var(--accent);
+      padding:14px 16px;
+      border-radius:10px;
+      margin:14px 0 22px;
+    }
+    .button-row{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0 28px}
+    .btn{
+      display:inline-block;
+      text-decoration:none;
+      background:var(--accent);
+      color:#fff;
+      padding:11px 16px;
+      border-radius:10px;
+      font-weight:700;
+      border:1px solid var(--accent-dark);
+    }
+    .btn.secondary{
+      background:#fff;
+      color:var(--accent-dark);
+      border:1px solid var(--accent-dark);
+    }
+    h4{
+      margin:28px 0 10px;
+      font-size:1.2rem;
+      border-bottom:1px solid var(--line);
+      padding-bottom:6px;
+    }
+    .img-card{
+      margin:16px 0 26px;
+      background:#faf8f2;
+      border:1px solid var(--line);
+      border-radius:14px;
+      padding:14px;
+    }
+    .img-card img{
+      width:100%;
+      height:auto;
+      display:block;
+      border-radius:10px;
+      border:1px solid #d3ccbd;
+      background:#fff;
+    }
+    figcaption{
+      color:var(--muted);
+      font-size:.92rem;
+      margin-top:10px;
+    }
+    ul{padding-left:22px}
+    footer{
+      text-align:center;
+      color:var(--muted);
+      padding:26px 16px 40px;
+      font-size:.95rem;
+    }
+    @media (max-width:700px){
+      article{padding:18px}
+      .post-title{font-size:1.65rem}
+      .page-title h2{font-size:1.8rem}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FSR Dojo</h1>
+    <p>Favorite Soils Report · Group Website</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="taylor.html">Soil Ninja TB</a>
+    <a href="cody.html">Soil Ninja CS</a>
+    <a href="nicole.html">Soil Ninja NZ</a>
+  </nav>
+
+  <main>
+    <section class="page-title">
+      <h2>Group Blog</h2>
+      <p>Posts from the Soil Ninjas on their favorite soil series.</p>
+    </section>
+
+    <article id="cs-blog-1" aria-labelledby="cs-blog-1-title">
+      <div class="meta">Blog Post 1 · October 18, 2026</div>
+      <h3 class="post-title" id="cs-blog-1-title">How Parched the Sites Soil Series Really Is</h3>
+      <p class="byline">By Soil Ninja CS (Cody Selig)</p>
+
+      <div class="lede">
+        <strong>Question:</strong> How much available plant water is in the root zone of the Sites soil series?
+      </div>
+
+      <p>
+        This post presents Soil Ninja CS’s original Blog Post 1 work for the Sites soil series,
+        including the typed write-up, the horizon data table, and the handwritten calculations.
+        The handwritten work is embedded below as image previews, and the original PDF is also available to download.
+      </p>
+
+      <div class="button-row">
+        <a class="btn" href="assets/CS_How_Parched_the_Sites_Soil_Series_Really_Is.pdf" download>Download original PDF</a>
+        <a class="btn secondary" href="assets/CS_How_Parched_the_Sites_Soil_Series_Really_Is.pdf" target="_blank" rel="noopener">Open PDF in new tab</a>
+      </div>
+
+      <h4>Blog post pages</h4>
+
+      <figure class="img-card">
+        <img src="assets/cs_blog_page-1.jpg" alt="Page 1 of Soil Ninja CS blog post showing the typed discussion and Sites soil series horizon data table.">
+        <figcaption>
+          <strong>Page 1:</strong> Typed blog post with the discussion of plant-available water, the role of texture, rocks, and organic matter, and a typed horizon table.
+        </figcaption>
+      </figure>
+
+      <figure class="img-card">
+        <img src="assets/cs_blog_page-2.jpg" alt="Page 2 of Soil Ninja CS blog post showing handwritten plant-available water calculations for the Sites soil series.">
+        <figcaption>
+          <strong>Page 2:</strong> Handwritten calculations showing the root-zone assumption and PAW math used for the Sites soil series.
+        </figcaption>
+      </figure>
+
+      <h4>Quick summary</h4>
+      <ul>
+        <li>Soil series: <strong>Sites</strong></li>
+        <li>Author: <strong>Soil Ninja CS</strong></li>
+        <li>Date: <strong>October 18, 2026</strong></li>
+        <li>Reported result: <strong>18.31% available water holding capacity</strong></li>
+      </ul>
+    </article>
+  </main>
+
+  <footer>FSR Dojo · Blog page for the Favorite Soils Report project</footer>
+</body>
+</html>
