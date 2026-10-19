@@ -1,11 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="FSR Dojo group blog for Favorite Soils Report">
-  <title>Blog | FSR Dojo</title>
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="FSR Dojo group blog for Favorite Soils Report" name="description"/>
+<title>Blog | FSR Dojo</title>
+<style>
     :root{
       --bg:#f4f1e8;
       --paper:#fffdf8;
@@ -132,74 +133,104 @@
       .post-title{font-size:1.65rem}
       .page-title h2{font-size:1.8rem}
     }
-  </style>
+  
+ article + article{margin-top:28px} .table-scroll{overflow-x:auto} .paw-table{width:100%;border-collapse:collapse;min-width:660px;font-family:Arial,Helvetica,sans-serif;font-size:.9rem} .paw-table th,.paw-table td{border:1px solid #d8d2c4;padding:9px;text-align:right} .paw-table th:first-child,.paw-table td:first-child{text-align:left} .paw-table thead{background:#ece7db} .paw-table tbody tr:last-child{background:#f3f0e6;font-weight:bold} </style>
 </head>
 <body>
-  <header>
-    <h1>FSR Dojo</h1>
-    <p>Favorite Soils Report · Group Website</p>
-  </header>
-
-  <nav aria-label="Main navigation">
-    <a href="index.html">Home</a>
-    <a href="blog.html">Blog</a>
-    <a href="taylor.html">Soil Ninja TB</a>
-    <a href="cody.html">Soil Ninja CS</a>
-    <a href="nicole.html">Soil Ninja NZ</a>
-  </nav>
-
-  <main>
-    <section class="page-title">
-      <h2>Group Blog</h2>
-      <p>Posts from the Soil Ninjas on their favorite soil series.</p>
-    </section>
-
-    <article id="cs-blog-1" aria-labelledby="cs-blog-1-title">
-      <div class="meta">Blog Post 1 · October 18, 2026</div>
-      <h3 class="post-title" id="cs-blog-1-title">How Parched the Sites Soil Series Really Is</h3>
-      <p class="byline">By Soil Ninja CS (Cody Selig)</p>
-
-      <div class="lede">
-        <strong>Question:</strong> How much available plant water is in the root zone of the Sites soil series?
+<header>
+<h1>FSR Dojo</h1>
+<p>Favorite Soils Report · Group Website</p>
+</header>
+<nav aria-label="Main navigation">
+<a href="index.html">Home</a>
+<a href="blog.html">Blog</a>
+<a href="taylor.html">Soil Ninja TB</a>
+<a href="cody.html">Soil Ninja CS</a>
+<a href="nicole.html">Soil Ninja NZ</a>
+</nav>
+<main>
+<section class="page-title">
+<h2>Group Blog</h2>
+<p>Posts from the Soil Ninjas on their favorite soil series.</p>
+</section>
+<article aria-labelledby="tb-blog-1-title" id="tb-blog-1">
+<div class="meta">Blog Post 1 · October 18, 2026</div>
+<h3 class="post-title" id="tb-blog-1-title">Water at Mile High (x2): Plant-Available Water in the Leadville Soil Series</h3>
+<p class="byline">By Taylor Boyd (Soil Ninja TB)</p>
+<div class="lede"><strong>Question:</strong> How much Plant Available Water (PAW, in length units) is in the root zone of the Leadville soil series?</div>
+<div class="button-row"><a class="btn" download="" href="assets/Water_at_Mile_High_Leadville.pdf">Download original Leadville PDF</a><a class="btn secondary" href="assets/Water_at_Mile_High_Leadville.pdf" rel="noopener" target="_blank">Open PDF in new tab</a></div>
+<p>The Leadville series, subgroup Typic Cryoboralfs, can be found on mountain slopes, alluvial fans, and terraces along the center of Colorado and covers approximately 80,960 acres. The series is classified as loamy-skeletal, mixed, superactive Ustic Glossocryalfs. These soils are very deep and well drained, with substantial amounts of rock fragments throughout the soil profile (USDA NRCS, 2007).</p>
+<p>For this analysis, I used primary characterization data from USDA Soil Survey Laboratory pedon 91CO037005, originally sampled as Leadville in Eagle County, Colorado, in 1991. I consulted my DRoCTS+ table as a reference, but based my calculation on the USDA Soil Survey Laboratory soil characterization data.</p>
+<p>The series description for Leadville on SoilWeb identifies root-channel features in the B/E, Bt1, and Bt2 horizons, indicating that roots have penetrated below upper horizons. Because of this, I assumed a root zone extending through the A, E1, E2, Bt/E, and Bt1 horizons of the laboratory pedon, reaching a depth of 102 cm (approximately 40 inches).</p>
+<h4>PAW calculation method</h4>
+<p>The following calculations were performed for each horizon: (A horizon calculations below):</p>
+<ul><li>Available water fraction = (FC − PWP) ÷ 100</li><li>Soil mass per unit area = Horizon thickness × Bulk density</li><li>PAW mass per unit area = Soil mass per unit area × Available water fraction</li><li>PAW depth = PAW mass per unit area ÷ Water density</li></ul>
+<p>Water density was assumed to be 1.00 g/cm³.</p>
+<h4>A horizon (0–18 cm)</h4>
+<p><strong>Available water fraction:</strong> 36.1% − 8.5% = 27.6% = 0.276</p>
+<p><strong>Soil mass per unit area:</strong> 18 cm × 0.84 g/cm³ = 15.12 g/cm²</p>
+<p><strong>Mass of plant-available water:</strong> 15.12 g/cm² × 0.276 = 4.173 g/cm²</p>
+<p><strong>Depth of plant-available water:</strong> 4.173 g/cm² ÷ 1.00 g/cm³ = <strong>4.17 cm PAW</strong></p>
+<h4>PAW Calculations by Horizon</h4>
+<div class="table-scroll"><table class="paw-table"><thead><tr><th>Horizon</th><th>Thickness (m)</th><th>Bulk Density (g/cm³)</th><th>FC (%)</th><th>PWP (%)</th><th>PAW Mass (g/cm²)</th><th>PAW Depth (cm)</th></tr></thead><tbody>
+<tr><td>A</td><td>0.18</td><td>0.84</td><td>36.1</td><td>8.5</td><td>4.173</td><td>4.17</td></tr>
+<tr><td>E1</td><td>0.20</td><td>1.61</td><td>13.7</td><td>1.3</td><td>3.993</td><td>3.99</td></tr>
+<tr><td>E2</td><td>0.13</td><td>1.62</td><td>13.1</td><td>5.4</td><td>1.622</td><td>1.62</td></tr>
+<tr><td>Bt/E</td><td>0.28</td><td>1.70</td><td>13.5</td><td>5.5</td><td>3.808</td><td>3.81</td></tr>
+<tr><td>Bt1</td><td>0.23</td><td>1.69</td><td>15.8</td><td>6.2</td><td>3.732</td><td>3.73</td></tr>
+<tr><th>Total</th><th>1.02</th><td></td><td></td><td></td><th>17.327</th><th>17.33</th></tr>
+</tbody></table></div>
+<p class="meta">Table 1. Plant-available water calculated for five mineral horizons using USDA Soil Survey Laboratory data for pedon 91CO037005 using <a href="https://tinyurl.com/pawquestion57">https://tinyurl.com/pawquestion57</a>.</p>
+<p><strong>Total PAW = 17.327 g/cm² ÷ 1.00 g/cm³ = 17.33 cm (6.82 inches)</strong></p>
+<p><strong>PAW (%) = (17.33 cm ÷ 102 cm) × 100 = 16.99%</strong></p>
+<p>The estimated fine-earth plant-available water within the assumed 102 cm root zone is 17.33 cm, or 16.99% of the total root-zone thickness.</p>
+<h4>How would rocks and soil organic matter change PAW?</h4>
+<p><strong>The CDM/Welsh triangles estimates FC and PWP based on texture, but it does not take into account two very important soil attributes (hint: Rocks and Soil Organic Matter) that could change PAW. How would these two factors change the PAW in your soil?</strong></p>
+<p>The Leadville soil series contains large amounts of rock fragments. The series description identifies approximately 40% stones in the B/E horizon and 70% in the Bt1 horizon. Because rock fragments generally store much less plant-available water than fine soil particles (in-and-out water), ~17.33 cm is probably an overestimate. Organic matter could improve this by contributing to soil properties that retain more water. The Leadville series has two shallow O horizons containing slightly decomposed needles, bark, twigs, and grass remains. These materials would help retain water in the soil.</p>
+<h4>Sources</h4>
+<ul>
+<li>California Soil Resource Lab. (n.d.). <em>Soil Data Explorer: Leadville – Water balance.</em> University of California, Davis. <a href="https://soilmap2-1.lawr.ucdavis.edu/sde/?series=leadville#water-balance">Source</a>.</li>
+<li>U.S. Department of Agriculture, Natural Resources Conservation Service. (2007). <em>Official series description: Leadville series.</em> <a href="https://soilseries.sc.egov.usda.gov/OSD_Docs/L/LEADVILLE.html">Source</a>.</li>
+<li>U.S. Department of Agriculture, Natural Resources Conservation Service, Soil Survey Laboratory. (1991). <em>Primary characterization data: Pedon 91CO037005, Eagle County, Colorado</em> [Laboratory characterization data]. National Soil Survey Center. <a href="https://ncsslabdatamart.sc.egov.usda.gov/">Source</a>.</li>
+</ul>
+</article><article aria-labelledby="cs-blog-1-title" id="cs-blog-1">
+<div class="meta">Blog Post 1 · October 18, 2026</div>
+<h3 class="post-title" id="cs-blog-1-title">How Parched the Sites Soil Series Really Is</h3>
+<p class="byline">By Soil Ninja CS (Cody Selig)</p>
+<div class="lede">
+<strong>Question:</strong> How much available plant water is in the root zone of the Sites soil series?
       </div>
-
-      <p>
+<p>
         This post presents Soil Ninja CS’s original Blog Post 1 work for the Sites soil series,
         including the typed write-up, the horizon data table, and the handwritten calculations.
         The handwritten work is embedded below as image previews, and the original PDF is also available to download.
       </p>
-
-      <div class="button-row">
-        <a class="btn" href="assets/CS_How_Parched_the_Sites_Soil_Series_Really_Is.pdf" download>Download original PDF</a>
-        <a class="btn secondary" href="assets/CS_How_Parched_the_Sites_Soil_Series_Really_Is.pdf" target="_blank" rel="noopener">Open PDF in new tab</a>
-      </div>
-
-      <h4>Blog post pages</h4>
-
-      <figure class="img-card">
-        <img src="assets/cs_blog_page-1.jpg" alt="Page 1 of Soil Ninja CS blog post showing the typed discussion and Sites soil series horizon data table.">
-        <figcaption>
-          <strong>Page 1:</strong> Typed blog post with the discussion of plant-available water, the role of texture, rocks, and organic matter, and a typed horizon table.
+<div class="button-row">
+<a class="btn" download="" href="assets/CS_How_Parched_the_Sites_Soil_Series_Really_Is.pdf">Download original PDF</a>
+<a class="btn secondary" href="assets/CS_How_Parched_the_Sites_Soil_Series_Really_Is.pdf" rel="noopener" target="_blank">Open PDF in new tab</a>
+</div>
+<h4>Blog post pages</h4>
+<figure class="img-card">
+<img alt="Page 1 of Soil Ninja CS blog post showing the typed discussion and Sites soil series horizon data table." src="assets/cs_blog_page-1.jpg"/>
+<figcaption>
+<strong>Page 1:</strong> Typed blog post with the discussion of plant-available water, the role of texture, rocks, and organic matter, and a typed horizon table.
         </figcaption>
-      </figure>
-
-      <figure class="img-card">
-        <img src="assets/cs_blog_page-2.jpg" alt="Page 2 of Soil Ninja CS blog post showing handwritten plant-available water calculations for the Sites soil series.">
-        <figcaption>
-          <strong>Page 2:</strong> Handwritten calculations showing the root-zone assumption and PAW math used for the Sites soil series.
+</figure>
+<figure class="img-card">
+<img alt="Page 2 of Soil Ninja CS blog post showing handwritten plant-available water calculations for the Sites soil series." src="assets/cs_blog_page-2.jpg"/>
+<figcaption>
+<strong>Page 2:</strong> Handwritten calculations showing the root-zone assumption and PAW math used for the Sites soil series.
         </figcaption>
-      </figure>
-
-      <h4>Quick summary</h4>
-      <ul>
-        <li>Soil series: <strong>Sites</strong></li>
-        <li>Author: <strong>Soil Ninja CS</strong></li>
-        <li>Date: <strong>October 18, 2026</strong></li>
-        <li>Reported result: <strong>18.31% available water holding capacity</strong></li>
-      </ul>
-    </article>
-  </main>
-
-  <footer>FSR Dojo · Blog page for the Favorite Soils Report project</footer>
+</figure>
+<h4>Quick summary</h4>
+<ul>
+<li>Soil series: <strong>Sites</strong></li>
+<li>Author: <strong>Soil Ninja CS</strong></li>
+<li>Date: <strong>October 18, 2026</strong></li>
+<li>Reported result: <strong>18.31% available water holding capacity</strong></li>
+</ul>
+</article>
+</main>
+<footer>FSR Dojo · Blog page for the Favorite Soils Report project</footer>
 </body>
 </html>
